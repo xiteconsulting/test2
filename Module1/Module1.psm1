@@ -6,3 +6,4 @@ function pr () {
     )
     write-host $string
 }
+Export-ModuleMember -Function 'pr'
